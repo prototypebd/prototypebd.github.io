@@ -14,7 +14,7 @@ anchor.addEventListener('click',(e)=>{
         });
         form.name.value='';
         form.style.display="none";
-        h2.innerHTML="Thank You For Placing Order";
+        H2.innerHTML="Thank You For Placing Order";
        // window.setTimeout(location.reload(),1000);
     //   var order=db.collection("order").doc('total');
    // order.update({
