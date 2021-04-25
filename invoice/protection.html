@@ -29,11 +29,11 @@
   db.settings({timestampsInSnapshots:true});
  
 var password;
-var pass1="walid";
+// var pass1= db.collection("order").doc("ys1o84YaHVMqvl2yrZ4M").where("rand","=",password);
 
 password=prompt('Please enter your password to view this page!',' ');
 
-if (password==pass1)
+if (db.collection("order").doc("ys1o84YaHVMqvl2yrZ4M").where("rand","=",password))
  window.location="https://prototypebd.github.io/invoice/";
 else
    {
