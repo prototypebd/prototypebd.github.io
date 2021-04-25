@@ -9,7 +9,7 @@ anchor.addEventListener('click',(e)=>{
             City:form.City.value,
             Zip:form.Zip.value,
             Phone:form.Phone.value,
-            Company:form.Company.value,
+           Email:form.Email.value,
             Date: firebase.firestore.Timestamp.fromDate(new Date())
         });
         form.name.value='';
